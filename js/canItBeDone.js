@@ -1,10 +1,8 @@
 
 
 //var sch = Schedule('1/1/2014', 200, 2, 6);
+//alert(sch);
 
-//alert('hi');
-//alert('hi');
-//
 function Schedule(startDate, hours, numResources, hrsPerRes)
 {
     //debugger;
