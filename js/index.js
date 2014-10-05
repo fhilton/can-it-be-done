@@ -2,7 +2,6 @@
  * Created by fhilton on 10/5/14.
  */
 
-calcEndDate();
 
 function calcEndDate() {
     var startDate = $('#StartDate').val();
@@ -14,8 +13,4 @@ function calcEndDate() {
         $('#CompleteDate').val(Schedule(startDate, hoursProject,numResources , hrsPerResource));
     }
 
-
-    //$('#CompleteDate').val('1/1/2012');
-
-    //alert(hrsPerResource);
 }
